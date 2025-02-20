@@ -1,0 +1,131 @@
+
+
+.container {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh
+}
+
+.image-overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.image-overlay p {
+    font-size: 3rem;
+   text-shadow: 1px 1px 0px rgba(87, 87, 87, 0.15),
+        -1px -1px 0px rgba(87, 87, 87, 0.15),
+        1px -1px 0px rgba(87, 87, 87, 0.15),
+        -1px 1px 0px rgba(87, 87, 87, 0.15);
+    font-weight: 700;
+}
+
+.text-content {
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.3rem;
+}
+
+.text-content p {
+    margin: 1.5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #5b82c3;
+}
+
+h2{
+    color: #5b82c3;
+}
+
+.donation button {
+    max-width: 30px;
+}
+
+.donationButton {
+    max-width: 300px;
+    margin: 2%;
+}
+.cf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cf img{
+    max-width: 40%;
+}
+
+.file-anchor{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.file-anchor a{
+    color:#5b82c3;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.file-anchor a:hover{
+    color:#ffd35f;
+}
+.donation-container {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+@media (max-width: 1100px) {
+    .image-overlay {
+        top: 50%;
+        font-size: 1.5rem;
+
+    }
+    .cf img {
+        max-width:90%;
+
+    }
+    .file-anchor a:hover{
+        color:#5b82c3;
+    }
+    .donation-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:800px) {
+    .text-content {
+        font-size: 1.1rem;
+    }
+
+    
+h1 {
+
+    font-size: 2rem;
+}
+
+h2 {
+
+    font-size: 1.5rem;
+}
+
+  
+}
